@@ -4,4 +4,4 @@ mono: none
 dotnet: 1.1.5
 script:
  - dotnet restore
- - .\ConsoleApp2\UnitTestProject1\UnitTestProject1.csproj
+ - source ./ConsoleApp2/UnitTestProject1/UnitTestProject1.csproj
