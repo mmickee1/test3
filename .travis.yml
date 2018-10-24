@@ -3,5 +3,4 @@ solution: ConsoleApp2.sln
 mono: none
 dotnet: 1.1.5
 script:
- - dotnet restore
- - source ./ConsoleApp2/UnitTestProject1/UnitTestProject1.cs
+ - ./UnitTestProject1.cs
