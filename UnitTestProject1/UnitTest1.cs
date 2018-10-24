@@ -14,11 +14,11 @@ namespace UnitTestProject1
             Assert.AreEqual(3, objet.whatever(1, 2));
         }
 
-       /* [TestMethod]
+        [TestMethod]
         public void TestMethod2()
         {
             OurClass objet = new OurClass();
             Assert.AreEqual(4, objet.whatever(1, 2));
-        }*/
+        }
     }
 }
