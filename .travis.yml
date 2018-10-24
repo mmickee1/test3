@@ -5,4 +5,4 @@ dotnet: 1.1.5
 script:
  - dotnet restore
 # - source "./UnitTestProject1/UnitTest1.cs"
- - ./Debug/UnitTestProject1.dll
+ - mono ConsoleApp2/UnitTestProject1/bin/Debug/UnitTestProject1.dll
