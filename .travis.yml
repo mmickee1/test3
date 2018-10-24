@@ -2,5 +2,3 @@ language: csharp
 solution: ConsoleApp2.sln
 mono: none
 dotnet: 1.1.5
-script:
- - ./UnitTestProject1.cs
