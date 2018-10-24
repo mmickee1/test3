@@ -8,14 +8,14 @@ namespace UnitTestProject1
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod1 ()
         {
             OurClass objet = new OurClass();
             Assert.AreEqual(3, objet.whatever(1, 2));
         }
 
         [TestMethod]
-        public void TestMethod2()
+        public void TestMethod2 ()
         {
             OurClass objet = new OurClass();
             Assert.AreEqual(4, objet.whatever(1, 2));
