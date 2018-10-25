@@ -5,5 +5,5 @@ dotnet: 1.1.5
 script:
  - dotnet restore
 # - csharp ConsoleApp2/Program.cs
- - csharp ./UnitTestProject1/UnitTest1.cs
+ - ./UnitTestProject1/UnitTest1.cs
 # - csharp ConsoleApp2/UnitTestProject1/obj/Debug/UnitTestProject1.dll
