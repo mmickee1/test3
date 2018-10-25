@@ -6,6 +6,6 @@ before script:
  - ConsoleApp2/ConsoleApp2/obj/Debug/ConsoleApp2.exe
 script:
  - dotnet restore
-# - csharp ConsoleApp2/Program.cs
+ - chmod +x ConsoleApp2/Program.cs
 # - ./UnitTestProject1/UnitTest1.cs
- - mstest ConsoleApp2/UnitTestProject1/obj/Debug/UnitTestProject1.dll
+# - chmod +x ConsoleApp2/UnitTestProject1/obj/Debug/UnitTestProject1.dll
