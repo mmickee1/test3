@@ -2,6 +2,8 @@ language: csharp
 solution: ConsoleApp2.sln
 mono: none
 dotnet: 1.1.5
+before script:
+ - ConsoleApp2/ConsoleApp2/obj/Debug/ConsoleApp2.exe
 script:
  - dotnet restore
 # - csharp ConsoleApp2/Program.cs
