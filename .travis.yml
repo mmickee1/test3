@@ -7,5 +7,5 @@ before script:
 script:
  - dotnet restore
 # - csharp ConsoleApp2/Program.cs
- - ./UnitTestProject1/UnitTest1.cs
-# - csharp ConsoleApp2/UnitTestProject1/obj/Debug/UnitTestProject1.dll
+# - ./UnitTestProject1/UnitTest1.cs
+ - mstest ConsoleApp2/UnitTestProject1/obj/Debug/UnitTestProject1.dll
